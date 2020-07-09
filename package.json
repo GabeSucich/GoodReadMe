@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "dotenv": "^8.0.0",
     "inquirer": "^6.5.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabeSucich/Hw09_ReadMeGenerator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/GabeSucich/Hw09_ReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/GabeSucich/Hw09_ReadMeGenerator#readme"
 }
