@@ -10,7 +10,6 @@ const questions = [
     {type: 'input',  message:"What is your Github email?", name: "email"},
     {type: 'input',  message:"What is your project title?", name: "title"},
     {type: 'input',  message:"Give a concise description of your project", name: "description"},
-    {type: 'input',  message:"Give the exact name of your project Github repository:", name: "repo_name"},
     {type: 'input', message: "Give instructions for installation so that a developer can work on this project", name: "installation"},
     {type: 'input',  message:"Give any instructions on how the repository should be used:", name: "usage"},
     {type: 'input', message:"Give instructions for how developers can contribute to this repository:", name: "contributions"},
