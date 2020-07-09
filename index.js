@@ -3,7 +3,6 @@ var fs = require('fs')
 var inquirer = require('inquirer')
 var axios = require('axios')
 
-axios.get("https://api.github.com/users/GabeSucich").then(function(response) {console.log(response)})
 
 
 const questions = [
@@ -23,7 +22,6 @@ const questions = [
 
 
 function writeToFile(fileName, data) {
-    console.log(data.yes)
     var markdown = generateMarkdown(data);
     fs.writeFile(fileName, markdown, function(err) {
         if (err) {
@@ -35,17 +33,18 @@ function writeToFile(fileName, data) {
     })
 };
 
-async function photo(username) {
 
-}
-
-function init() {
+ function init() {
+    
     inquirer
         .prompt(questions).then(function(response) {
-
-
-            writeToFile('README.md', response)
+            var prompt_data = response
+            axios.get(`https://api.github.com/users/${prompt_data.github_username}`).then(function(response) {
+                prompt_data.profile_pic = response.data.avatar_url
+                writeToFile('README.md', prompt_data)
+            
         })
-};
+    });
+}
 
-init();
+init()

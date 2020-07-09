@@ -42,7 +42,7 @@ ${data.questions}
 
 ## Github Information
 
-![Github Profile]('${data.profile_url}')
+![Github Profile](${data.profile_pic})
 
 Email: ${data.email}
 `;
