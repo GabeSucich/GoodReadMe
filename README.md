@@ -41,6 +41,6 @@ d
 
 ## Github Information
 
-![Github Profile](https://avatars0.githubusercontent.com/u/65562303?v=4)
+![Github Profile](https://avatars2.githubusercontent.com/u/440892?v=4)
 
 Email: d
