@@ -6,6 +6,12 @@ function generateMarkdown(data) {
 
 ${data.description}
 
+## Deployed Site
+
+${data.deployed_info1}
+
+${data.deployed_info2}
+
 ## Contents
 
 * [Installation](#installation)
@@ -14,6 +20,7 @@ ${data.description}
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Github Information](#github-information)
 
 
 ## Installation
@@ -41,6 +48,8 @@ ${data.tests}
 ${data.questions}
 
 ## Github Information
+
+[![Generic badge](https://img.shields.io/badge/${data.github_username}-Github_Profile-green.svg)](https://github.com/${data.github_username})
 
 ![Github Profile](${data.profile_pic})
 

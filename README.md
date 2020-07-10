@@ -5,6 +5,12 @@
 
 d
 
+## Deployed Site
+
+[![Website #](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](#)
+
+See the deployed site at facebook.com
+
 ## Contents
 
 * [Installation](#installation)
@@ -13,6 +19,7 @@ d
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Github Information](#github-information)
 
 
 ## Installation
@@ -25,7 +32,7 @@ d
 
 ## License
 
-This project was completed under the Apache license.
+This project is not under any license.
 
 ## Contributing
 
@@ -41,6 +48,8 @@ d
 
 ## Github Information
 
-![Github Profile](https://avatars2.githubusercontent.com/u/440892?v=4)
+[![Generic badge](https://img.shields.io/badge/GabeSucich-Github_Profile-green.svg)](https://github.com/GabeSucich)
 
-Email: d
+![Github Profile](https://avatars0.githubusercontent.com/u/65562303?v=4)
+
+Email: gabe.sucich@gmail.com

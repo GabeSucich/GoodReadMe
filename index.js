@@ -42,7 +42,7 @@ function init() {
             try {
                 var prompt_data = response
                 if (prompt_data.license === "Other") {
-                    const { license } = await inquirer.prompt({ type: 'input', message: "which license are you using:", name: "license" });
+                    const { license } = await inquirer.prompt({ type: 'input', message: "Which license are you using:", name: "license" });
                     prompt_data.license = license
                     prompt_data.license = `This project was completed under the ${prompt_data.license} license.`
                 }
@@ -53,6 +53,18 @@ function init() {
 
                 else {
                     prompt_data.license = `This project was completed under the ${prompt_data.license} license.`
+                }
+
+                const { siteDeployed }  = await inquirer.prompt({ type: 'list', message: "Do you have a link for your deployed application?:", choices: ['yes', 'no'], name: "siteDeployed" });
+                if (siteDeployed === 'yes') {
+                    const {site_url} = await inquirer.prompt({ type: 'input', message: "What is the url of your deployed application", name: "site_url"});
+                    prompt_data.deployed_info1 = `[![Website #](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](#)`
+                    prompt_data.deployed_info2 = `See the deployed site at ${site_url}`
+                }
+
+                else {
+                    prompt_data.deployed_info1 = "There is currently no deployed info for this site."
+                    prompt_data.deployed_info2 = ""
                 }
                 
                 axios.get(`https://api.github.com/users/${prompt_data.github_username}`).then(function (response) {
