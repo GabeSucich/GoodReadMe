@@ -8,12 +8,12 @@ ${data.description}
 
 ## Contents
 
-*[Installation](#installation)
-*[Usage](#usage)
-*[License](#license)
-*[Contributing](#contributing)
-*[Tests](#tests)
-*[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 
 ## Installation
@@ -26,7 +26,7 @@ ${data.usage}
 
 ## License
 
-This project was completed under the ${data.license} license.
+${data.license}
 
 ## Contributing
 

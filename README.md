@@ -1,9 +1,9 @@
 
-# 
+# d
 
 ## Description
 
-
+d
 
 ## Contents
 
@@ -17,30 +17,30 @@
 
 ## Installation
 
-
+d
 
 ## Usage
 
-
+d
 
 ## License
 
-This project was completed under the MIT license.
+This project was completed under the Apache license.
 
 ## Contributing
 
-
+d
 
 ## Tests
 
-
+d
 
 ## Questions
 
-
+d
 
 ## Github Information
 
 ![Github Profile](https://avatars0.githubusercontent.com/u/65562303?v=4)
 
-Email: 
+Email: d
