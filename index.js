@@ -3,9 +3,6 @@ var fs = require('fs')
 var inquirer = require('inquirer')
 var axios = require('axios')
 
-
-
-
 const questions = [
     { type: 'input', message: "What is your Github username?", name: "github_username" },
     { type: 'input', message: "What is your Github email?", name: "email" },
@@ -28,7 +25,7 @@ function writeToFile(fileName, data) {
             throw err
         }
         else {
-            console.log(`ReadMe file successfully generated as ${fileName}`);
+            console.log(`ReadMe file successfully generated. Location: ${fileName}`);
         }
     })
 };
@@ -69,7 +66,7 @@ function init() {
                 
                 axios.get(`https://api.github.com/users/${prompt_data.github_username}`).then(function (response) {
                     prompt_data.profile_pic = response.data.avatar_url
-                    writeToFile('README.md', prompt_data)
+                    writeToFile('GeneratedReadMe/README.md', prompt_data)
 
                 })
             } catch (err) {

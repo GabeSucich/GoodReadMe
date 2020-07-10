@@ -1,55 +1,42 @@
 
-# d
+# Good ReadMe Generator
 
 ## Description
 
-d
+Developers would like to save time when generating ReadMe's for their projects, and this application generates a sufficient ReadMe by prompting the user to enter content from the command line.
 
-## Deployed Site
-
-[![Website #](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](#)
-
-See the deployed site at facebook.com
-
-## Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
-* [Github Information](#github-information)
-
+This application features a use of npm packages which, after prompting the user to enter pertinent ReadMe information, generates a ReadMe file based on this content. The 'inquirer' package allows for user answers to questions on the command line to be stored for use in the ReadMe generation. The 'axios' npm package is used to make calls to the Github API to include developer-specific Github information on the ReadMe.
 
 ## Installation
 
-d
+To access this project for use and development, clone this repository onto your local machine from the terminal:
 
-## Usage
+```
+git clone https://github.com/GabeSucich/Hw09_ReadMeGenerator.git
+```
 
-d
+This repository comes with a package.json which includes all the npm dependecies. To download these, navigate into the cloned git directory in terminal and enter:
 
-## License
+```
+npm install
+```
 
-This project is not under any license.
+## Built With
 
-## Contributing
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* ["Inquirer" npm package](https://www.npmjs.com/package/axios)
+* ["Axios" npm package](https://www.npmjs.com/package/inquirer)
 
-d
 
-## Tests
+## Application Demonstration
 
-d
+![Application gif](Generator.gif)
 
-## Questions
+### Gabriel Sucich
 
-d
+- [Portfolio](https://gabesucich.github.io/UpdatedPortfolio/)
+- [Link to Github](https://github.com/GabeSucich)
+- [Link to LinkedIn](www.linkedin.com/in/gabriel-sucich-6a28a71a8)
 
-## Github Information
+See also the list of [contributors](https://github.com/GabeSucich/Hw09_/contributors) who participated in this project.
 
-[![Generic badge](https://img.shields.io/badge/GabeSucich-Github_Profile-green.svg)](https://github.com/GabeSucich)
-
-![Github Profile](https://avatars0.githubusercontent.com/u/65562303?v=4)
-
-Email: gabe.sucich@gmail.com
